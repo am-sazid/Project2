@@ -57,11 +57,14 @@ nav a{
     align-items: center;
     justify-content: space-between;
 }
+
+
 .baner-content{
     max-width: 500px;
 }
 .banner.profile-pic{
     height: 500px;
+    
 }
 .banner-greeting{
     font-size: 45px;
