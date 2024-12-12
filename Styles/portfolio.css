@@ -15,6 +15,24 @@ body{
 .text-primary{
     color: #FD6E0A;
 }
+
+.section-title{
+    color:#181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+   
+}
+.section-des{
+    color:#757575;
+    text-align: center;
+ 
+    font-size: 18px;
+    
+    font-weight: 400;
+    /* line-height: 30px; 166.667% */
+}
+
 /* Nav css */
 nav{
     display: flex;
@@ -63,8 +81,10 @@ nav a{
     max-width: 500px;
 }
 .banner.profile-pic{
-    height: 500px;
-    
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
+
 }
 .banner-greeting{
     font-size: 45px;
@@ -79,4 +99,25 @@ nav a{
 }
 .banner-d{
     margin-top: 0px;
+}
+
+/* main section style */
+main{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+/* About section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+.about-info{
+    text-align: center;
 }
