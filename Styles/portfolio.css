@@ -39,22 +39,26 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0 140px;
+
 }
 .nav-title{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    
 
 }
 
 nav > ul{
     display: flex;
     align-items: center;
+
 }
 
 nav li{
     list-style: none;
     margin-right: 50px;
+    
 }
 nav a{
     text-decoration: none;
@@ -62,7 +66,7 @@ nav a{
 
 /* header style */
 .header{
-    background-color: #fff6f0;
+    background-color:#FFF8F3;;
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
@@ -90,15 +94,18 @@ nav a{
     font-size: 45px;
     font-weight: 600;
     margin-bottom: 0;
+
 }
 .banner-title{
     font-size: 85px;
     font-weight: 700;
     margin-top: 4px;
     margin-bottom: 20px;
+
 }
 .banner-d{
     margin-top: 0;
+
 }
 
 /* main section style */
@@ -198,4 +205,8 @@ hr{
 .download-cv{
     text-align: center;
     margin-top: 70px;
+}
+footer{
+    display: flex;
+    background: #ffd8bc;
 }
