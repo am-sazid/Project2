@@ -67,10 +67,11 @@ nav a{
 /* header style */
 .header{
     background-color:#FFF8F3;;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 40%;
+    background-position: bottom right,bottom left;
+    /* background-size: 40%; */
+    height: 800px;
 }
 
 .banner{
@@ -79,16 +80,15 @@ nav a{
     align-items: center;
     justify-content: space-between;
 }
+.banner > .profile-pic{
+    width: 584px;
+    height: 620px;
+    flex-shrink: 0;
+}
 
 
 .baner-content{
     max-width: 500px;
-}
-.banner.profile-pic{
-    width: 584px;
-    height: 676px;
-    flex-shrink: 0;
-
 }
 .banner-greeting{
     font-size: 45px;
