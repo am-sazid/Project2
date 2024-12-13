@@ -70,8 +70,8 @@ nav a{
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
-    background-size: 800px;
-    height: 810px;
+    background-size: 650px;
+    height: 710px;
 }
 /* .header{
     background-image: url('../images/developer.png');
@@ -86,8 +86,8 @@ nav a{
     justify-content: space-between;
 }
 .banner > .profile-pic{
-    width: 594px;
-    height: 630px;
+    width: 494px;
+    height: 530px;
     flex-shrink: 0;
     margin-right: -0%;
 }
