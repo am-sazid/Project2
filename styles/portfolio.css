@@ -207,9 +207,10 @@ hr{
     text-align: center;
     margin-top: 70px;
 }
-footer{
+.footer{
     display: flex;
     gap: 117px;
+    color: #181818;
     background: #ffd8bc;
     margin-top: 113px;
     padding: 130px 200px;
@@ -241,4 +242,20 @@ footer{
     background: #FFF;
     border:0;
     width: 100%;
+}
+.copyright{
+    text-align: center;
+    display: flex;
+    
+}
+footer{
+    text-align: center;
+    color: #f5f3f3;
+    background-color: rgb(1,3,19);
+    padding: 2px 0px 2px 0px;
+    /* height: 40px; */
+    /* width: 100%; */
+    /* background: #e3f0fc9c; */
+    box-shadow: 50px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 0 0 5px 5px;
 }
