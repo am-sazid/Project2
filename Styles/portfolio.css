@@ -208,5 +208,24 @@ hr{
 }
 footer{
     display: flex;
+    gap: 117px;
     background: #ffd8bc;
+    margin-top: 113px;
+    padding: 130px 200px;
+
+}
+.footer-column{
+    width: 50%;    
+} 
+.section-title{
+    text-align: left; 
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 24px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border:0;
 }
