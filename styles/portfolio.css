@@ -124,6 +124,7 @@ main section {
     border-radius: 10px;
     background: #ffecde;
     margin: 130px 0;
+    text-align: center;
 
 }
 .about-info-container{
@@ -217,10 +218,21 @@ footer{
 .footer-column{
     width: 50%;    
 } 
-.section-title{
-    text-align: left; 
+.social-link a{
+    margin-left: 25px;
 }
-.contact input,textarea{
+.social-link a>img{
+    height: 40px;
+    width: 40px; 
+}
+.section-title2{
+    text-align: left; 
+    color:#181818;
+    /* text-align: center; */
+    font-size: 35px;
+    font-weight: 700;
+}
+.contact input[type="text"], .contact input[type="email"],textarea {
     display: block;
     margin-bottom: 24px;
     padding: 18px 35px;
@@ -228,4 +240,5 @@ footer{
     border-radius: 5px;
     background: #FFF;
     border:0;
+    width: 100%;
 }
