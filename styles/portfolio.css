@@ -67,10 +67,10 @@ nav a{
 /* header style */
 .header{
     background-color:#fce7d8;;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 630px;
+    background-position: bottom right, left ;
+    background-size: 630px ,85px;
     height: 660px;
 }
 /* .header{
