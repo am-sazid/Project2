@@ -269,3 +269,48 @@ footer{
     box-shadow: 50px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 0 0 4px 4px;
 }
+
+@media screen and (max-width:412px) {
+    .header{
+        background-size:412px,50px ;
+        height: 1000px;
+
+    }
+    .banner > .profile-pic{
+        margin-bottom: 400px;
+        margin-left: -210%;
+    }
+    .total-nav{
+        gap: 10px;
+        width: 140px;
+    }
+    .nav-title{
+       margin-left: -94%;
+       font-size: 25px;
+    }
+    .btn-primary{
+        border-radius: 5px;
+        background: #FD6E0A;
+        border: 0;
+        color: white;
+        font-size: 10px;
+        font-weight: 350;
+        padding: 7px 18px;
+    }
+    .baner-content{
+        margin-top: 170%;
+    }
+    .about{
+        padding: 30px;
+        border-radius: 10px;
+        background: #fde0cb;
+        margin: 130px 0;
+        text-align: center;
+    }
+    .about-info-container{
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+    }
+
+}
