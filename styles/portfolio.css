@@ -341,7 +341,11 @@ footer{
     }
     .resume-item-description,.resume-item-title,.resume-item-institute{
         padding: 0px;
+        width: 190px;
+        /* height: 100px; */
         margin-right: 100px;
+        /* text-align: center; */
+        font-size: medium;
     }
     hr{
         display: none;
