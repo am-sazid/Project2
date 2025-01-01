@@ -328,7 +328,7 @@ footer{
 
 /* about section  */
 @media screen and (max-width:576px) {
-    .skill-container,.resume-container{
+    .skill-container,.resume-container,.footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -342,7 +342,7 @@ footer{
     .resume-container{
         max-width: 300px;
     }
-    .resume-item-description,.resume-item-title,.resume-item-institute{
+    .resume-item-description,.resume-item-title,.resume-item-institute,.footer{
         padding: 10px;
         /* width: 190px; */
         /* height: 100px; */
@@ -355,5 +355,19 @@ footer{
     }
     hr{
         display: none;
+    }
+    .section-title2{
+        margin-left: 55px;
+        width: 100%;
+    }
+    #section-margin{
+        margin-right: -110px;
+        padding: 10px;
+    }
+    #btn-margin{
+        margin-left: 100px;
+    }
+    .footer{
+        gap: 10px;
     }
 }
