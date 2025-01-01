@@ -415,4 +415,15 @@ footer{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    footer{
+        text-align: center;
+        color: #f5f3f3;
+        background-color: rgb(2, 5, 29);
+        padding: 0.5px 0px 0.5px 0px;
+        /* height: 40px; */
+        /* width: 100%; */
+        /* background: #e3f0fc9c; */
+        box-shadow: 50px 6px 50px 0px solid rgba(19, 248, 210, 0.06);
+        border-radius: 0 0 5px 5px;
+    }
 }
