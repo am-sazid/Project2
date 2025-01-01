@@ -328,6 +328,35 @@ footer{
 
 /* about section  */
 @media screen and (max-width:576px) {
+    .header{
+        height: 1400px;
+        background-image: none;
+        background: url('../images/header_bg.png');
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-color: #fce7d8;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        padding-right: 100px;
+    }
+    .banner>.profile-pic{
+        background: url('../images/profilebg.png');
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-size: 400px;
+        width:410px;
+        height: 410px;
+        margin-left:0%;
+        margin-right: 40%;
+    }
+    .total-nav{
+        flex-direction: column;
+    }
+    #btn-margin2{
+        margin-top: 7px;
+        margin-left: 24px;
+    }
     .skill-container,.resume-container,.footer{
         flex-direction: column;
         justify-content: center;
@@ -369,5 +398,12 @@ footer{
     }
     .footer{
         gap: 10px;
+    }
+    .about{
+        padding: 10px;
+    }
+    .about-info-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
 }
