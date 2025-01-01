@@ -270,15 +270,16 @@ footer{
     border-radius: 0 0 4px 4px;
 }
 
-@media screen and (max-width:412px) {
+/* @media screen and (max-width:412px) {
     .header{
         background-size:412px,50px ;
         height: 1000px;
 
     }
     .banner > .profile-pic{
+        width: 400px;
+        height: 400px;
         margin-bottom: 400px;
-        margin-left: -210%;
     }
     .total-nav{
         gap: 10px;
@@ -312,5 +313,37 @@ footer{
         justify-content: space-between;
         font-size: 20px;
     }
+    .do-continer>.section-des{
+        height: 200px;
+    }
 
+
+} */
+
+/* responsive media quary */
+
+.hide{
+    display: none;
+}
+
+/* about section  */
+@media screen and (max-width:576px) {
+    .skill-container,.resume-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #i-do-des{
+        padding: 10px;
+    }
+    .resume-container{
+        max-width: 300px;
+    }
+    .resume-item-description,.resume-item-title,.resume-item-institute{
+        padding: 0px;
+        margin-right: 100px;
+    }
+    hr{
+        display: none;
+    }
 }
