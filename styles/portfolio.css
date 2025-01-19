@@ -168,6 +168,7 @@ main section {
     width: 160px;
     height: 350px;
     flex-shrink: 0;
+    text-align: center;
 
 }
 .skill-des{
